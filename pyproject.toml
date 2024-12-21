@@ -41,3 +41,6 @@ Documentation = "https://roehling.github.io/cmake_parser/"
 
 [tool.setuptools_scm]
 write_to = "src/cmake_parser/_version.py"
+
+[project.scripts]
+cmake-parser = "cmake_parser.cli:main"

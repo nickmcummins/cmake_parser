@@ -58,7 +58,7 @@ def prepare_args():
     return p
 
 
-if __name__ == "__main__":
+def main():
     import argparse
     import sys
     from pprint import pprint
@@ -103,3 +103,7 @@ if __name__ == "__main__":
         sys.exit(0)
 
     sys.exit(1)
+
+
+if __name__ == 'main':
+    main()
