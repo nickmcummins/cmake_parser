@@ -14,7 +14,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-
+import argparse
 def prepare_args():
     p = argparse.ArgumentParser()
     m = p.add_mutually_exclusive_group(required=True)
@@ -59,7 +59,6 @@ def prepare_args():
 
 
 def main():
-    import argparse
     import sys
     from pprint import pprint
 
